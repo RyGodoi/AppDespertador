@@ -7,6 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "permissions": [
+      "NOTIFICATIONS"
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,11 +19,12 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ryangodoi.RyAlarme",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.ryangodoi.RyAlarme"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
